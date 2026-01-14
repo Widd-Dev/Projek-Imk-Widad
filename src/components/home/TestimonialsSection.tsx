@@ -6,7 +6,7 @@ import testimonial3 from "@/assets/testimonial-3.jpg";
 const testimonials = [
   {
     id: 1,
-    name: "Siti Nurhaliza",
+    name: "Rafandra",
     role: "Coffee Enthusiast",
     content: "Es Kopi Loka adalah signature drink terbaik yang pernah saya coba! Perpaduan pandan dan coconut-nya unik banget. Jadi langganan setiap minggu.",
     rating: 5,
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Budi Santoso",
+    name: "Siti Nurhaliza",
     role: "Remote Worker",
     content: "Tempat kerja favorit saya! WiFi kencang, suasana tenang, dan kopinya enak. Barista-nya juga ramah-ramah. Highly recommended!",
     rating: 5,
