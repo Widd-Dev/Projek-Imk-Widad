@@ -160,20 +160,25 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {teamMembers.map((member) => (
-              <div key={member.name} className="text-center">
-                <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-4 border-4 border-primary/20">
+              <div key={member.name} className="bg-card rounded-2xl overflow-hidden border border-border shadow-lg">
+                <div className="aspect-[3/4] overflow-hidden">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <h3 className="font-display text-lg font-semibold text-foreground">
-                  {member.name}
-                </h3>
-                <p className="text-sm text-muted-foreground">{member.role}</p>
+                <div className="p-6 text-center">
+                  <h3 className="font-display text-xl font-semibold text-foreground mb-1">
+                    {member.name}
+                  </h3>
+                  <p className="text-primary font-medium text-sm mb-3">{member.role}</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {member.experience}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
