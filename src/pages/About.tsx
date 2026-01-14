@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { Coffee, Award, Users, Heart } from "lucide-react";
 import cafeInterior from "@/assets/cafe-interior.jpg";
 import counterBar from "@/assets/gallery/counter-bar.jpg";
-import rafandra from "@/assets/team/rafandra.png";
+import dimasFirmansyah from "@/assets/team/dimas-firmansyah.jpg";
 import imamBaihaqi from "@/assets/team/imam-baihaqi.jpg";
 import azkaRidho from "@/assets/team/azka-ridho.jpg";
 
@@ -31,19 +31,22 @@ const values = [
 
 const teamMembers = [
   {
-    name: "Rafandra",
+    name: "Dimas Firmansyah",
     role: "Head Barista",
-    image: rafandra,
+    image: dimasFirmansyah,
+    experience: "5+ tahun pengalaman di industri kopi. Ahli dalam latte art dan manual brewing. Pernah menjuarai kompetisi barista regional.",
   },
   {
     name: "Imam Baihaqi",
     role: "Senior Barista",
     image: imamBaihaqi,
+    experience: "3+ tahun sebagai barista profesional. Spesialis espresso dan signature drinks. Bersertifikasi SCA (Specialty Coffee Association).",
   },
   {
-    name: "Azka Ridho Al Ulya",
+    name: "Azka Ridho",
     role: "Barista",
     image: azkaRidho,
+    experience: "2+ tahun di dunia perkopian. Passionate dalam customer service dan menciptakan pengalaman kopi yang memorable.",
   },
 ];
 
